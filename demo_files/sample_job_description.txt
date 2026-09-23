@@ -1,0 +1,29 @@
+Job Title: Machine Learning & Software Engineer
+Company: CloudScale AI Innovations
+Location: San Francisco, CA (Hybrid / Remote Friendly)
+Employment Type: Full-Time
+
+ABOUT THE ROLE:
+CloudScale AI is seeking an ambitious Machine Learning & Software Engineer to join our Core Intelligent Systems team. In this role, you will bridge the gap between machine learning models and scalable production services. You will design, train, containerize, and deploy intelligent applications that power real-time customer analytics.
+
+KEY RESPONSIBILITIES:
+• Develop, evaluate, and maintain production-grade machine learning models using Python and modern ML libraries.
+• Build, optimize, and execute high-performance SQL queries for feature stores and analytical data pipelines.
+• Containerize machine learning applications and microservices using Docker for reliable staging and production deployments.
+• Deploy and monitor scalable inference endpoints and cloud services in Amazon Web Services (AWS) using EC2, S3, and ECS.
+• Work in an agile software development lifecycle, utilizing Git for collaborative version control, automated testing, and CI/CD pipelines.
+• Collaborate with cross-functional teams including product managers, frontend engineers, and data engineers to deliver customer-centric AI features.
+
+REQUIRED QUALIFICATIONS & SKILLS:
+• Bachelor's degree in Computer Science, Data Science, Software Engineering, or a related STEM discipline.
+• Minimum 2+ years of professional software engineering or machine learning development experience.
+• Strong proficiency in Python programming and core machine learning fundamentals (Supervised/Unsupervised Learning, evaluation metrics).
+• Proven experience with relational databases and writing complex SQL queries.
+• Hands-on experience with Docker for containerization and environment consistency.
+• Practical familiarity with AWS cloud services (e.g., S3, EC2, Lambda, or ECS) for cloud deployment.
+• Solid understanding of Git workflows, branching strategies, and code review best practices.
+
+PREFERRED QUALIFICATIONS:
+• Familiarity with MLOps best practices, CI/CD pipelines, and cloud monitoring tools.
+• Cloud certifications such as AWS Certified Cloud Practitioner or AWS Certified Solutions Architect.
+• Experience with frontend frameworks like React or modern API frameworks like FastAPI.

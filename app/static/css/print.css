@@ -1,0 +1,116 @@
+/* ==========================================================================
+   ResumeMatch AI - Print & PDF Export Stylesheet
+   ========================================================================== */
+
+@media print {
+  /* Reset background and colors for crisp high-contrast paper/PDF output */
+  body {
+    background: #ffffff !important;
+    color: #1e293b !important;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+
+  /* Hide UI navigation, sidebar, top header, audio buttons, and interactive controls */
+  .sidebar,
+  .top-header,
+  .sidebar-footer,
+  .upload-tabs,
+  .demo-btn-header,
+  .btn-primary,
+  .btn-secondary,
+  .btn-outline-danger,
+  .mobile-menu-btn,
+  .speech-btn,
+  .no-print {
+    display: none !important;
+  }
+
+  .main-viewport {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .page-container {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  /* Only display the active view or the report view during print */
+  .view-section {
+    display: none !important;
+  }
+
+  .view-section.active,
+  #view-job-fit-report,
+  #view-preparation-report {
+    display: block !important;
+  }
+
+  /* Cards formatting for print */
+  .stat-card,
+  .pillar-card,
+  .gap-card,
+  .feature-card,
+  .feedback-card,
+  .upload-card-wrapper {
+    background: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    box-shadow: none !important;
+    color: #0f172a !important;
+    page-break-inside: avoid;
+    margin-bottom: 16px;
+    padding: 16px !important;
+  }
+
+  .gauge-number,
+  .pillar-score,
+  .stat-value,
+  .hero-title,
+  .page-title {
+    color: #0f172a !important;
+    -webkit-text-fill-color: #0f172a !important;
+  }
+
+  /* Skill Badges */
+  .skill-badge {
+    border: 1px solid #94a3b8 !important;
+    color: #0f172a !important;
+    background: #f1f5f9 !important;
+  }
+
+  .modern-table th {
+    background: #f8fafc !important;
+    color: #475569 !important;
+    border-bottom: 2px solid #cbd5e1 !important;
+  }
+
+  .modern-table td {
+    border-bottom: 1px solid #e2e8f0 !important;
+    color: #1e293b !important;
+  }
+
+  /* Print Header Stamp */
+  .print-only-header {
+    display: block !important;
+    border-bottom: 2px solid #0f172a;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+  }
+
+  .print-only-header h1 {
+    font-size: 20pt;
+    margin: 0;
+    color: #0f172a;
+  }
+
+  .print-only-header p {
+    font-size: 10pt;
+    color: #64748b;
+    margin-top: 4px;
+  }
+}
+
+.print-only-header {
+  display: none;
+}
